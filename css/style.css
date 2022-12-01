@@ -1,0 +1,272 @@
+/* common start */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+/* common end */
+
+
+/* header start */
+header{
+  padding: 20px 0;
+   /* border: 1px solid red; */
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+  overflow: hidden;
+
+  /* border: 1px solid green; */
+}
+.logo{
+  margin-top: 14px;
+  width: 12%;
+  float: left;
+  /* border: 1px solid red; */
+}
+.logo img{
+  width: 100%;
+}
+.menu{
+  width: 58%;
+  float: right;
+  /* border: 1px solid red; */
+}
+.menu ul{
+  float: right; 
+}
+.menu ul li{
+  
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  margin: 0 51px;
+  padding: 3px 1px 3px;
+  display: inline-block;
+  color: #626262;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s;
+}
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+.menu ul li a:hover{
+  border-bottom: 1px solid #626262;
+}
+
+/* header end */
+
+
+
+/* banner start */
+  .banner{
+    padding-top: 60px;
+  }
+  /* .banner_img{} */
+  .banner_img img{
+    width: 100%;
+  }
+/* banner end */
+
+
+
+/* parfect section start */
+.perfect{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /* border: 1px solid; */
+}
+.wrapper{
+  margin: 0 auto;
+  width: 76%;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+/* .p_content{} */
+.common_light{
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+.common_h1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.common_text{
+  margin: 0;
+  line-height: 25px;
+}
+.mb_50{
+  margin-bottom: 50px;
+}
+
+/* parfect section end */
+
+/* blog1 start */
+.blog_1{
+  padding-top: 40px;
+  /* padding-bottom: 100px; */
+  /* border: 1px solid; */
+}
+/* .blog_section{} */
+.first_blog{
+  margin-bottom: 120px;
+  width: 47%;
+  float: left;
+  /* border: 1px solid yellow; */
+}
+.first_blog:nth-child(even){
+  margin-left: 6%;
+}
+.first_img{
+  margin-bottom: 25px;
+}
+.first_img img{
+  width: 100%;
+}
+/* blog1 end */
+
+
+
+
+/* contact start */
+  .newsletter_contact{
+    padding: 70px 0;
+    background-color: #f0f0f0;
+}
+.signup{
+  text-align: center;
+
+  /* border: 1px solid yellow; */
+}
+.h1_color{
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 70px;
+}
+.s_form{
+  margin: 0 auto;
+  width: 400px;
+  position: relative;
+  /* border: 1px solid blue; */
+}
+.s_form input{
+  padding-right: 52px;
+  padding-left: 3px;
+  width: 340px;
+  height: 45px;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  color: #333333;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+}
+.s_form input:focus{
+  outline: 0;
+}
+.s_form button{
+  position: absolute;
+  top: 15px;
+  right: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.s_form button:focus{
+  outline: 0;
+}
+.s_form button img{
+  width: 100%;
+}
+/* contact end */
+
+
+/* blog2 start */
+  .blog_2{
+    padding-top: 115px;
+    /* border: 1px solid; */
+  }
+  /* load button start */
+  .load{
+    text-align: center;
+    margin: 30px 0 200px;
+  }
+  .btn{
+    width: 160px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    transition: .3s;
+  }
+  .btn:hover{
+    background-color: #626262;
+    color: white;
+  }
+  /* load button end */
+/* blog2 end */
+
+/* footer start */
+footer{
+  padding: 35px 0;
+  background-color: #f0f0f0;
+}
+.terms{
+  float: left;
+}
+/* .terms ul{} */
+.terms ul li{
+  list-style: none;
+  float: left;
+}
+.terms ul li a{
+  margin: 0 25px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.social{
+  float: right;
+}
+/* .social ul{} */
+.social ul li{
+  list-style: none;
+  float: left;
+}
+.social ul li span{
+  color: black;
+}
+.social ul li a{
+  margin: 0 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+/* .social ul li a img{} */
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
